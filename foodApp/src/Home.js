@@ -73,14 +73,10 @@ class Home extends React.Component {
     if (!this.state.search || this.state.search === '') {
       return this.state.data.categories;
     } else {
-      return this.state.data.categories.filter(
-        (item) =>
-          item.category.categoryName
-            .toLowerCase()
-            .includes(this.state.search.toLowerCase()) ||
-          item.category.subcategories.some((item) =>
-            item.items.includes(this.state.search),
-          ),
+      return this.state.data.categories.filter((item) =>
+        item.category.subcategories.some((item) =>
+          item.items.toString().includes(this.state.search),
+        ),
       );
     }
   };
