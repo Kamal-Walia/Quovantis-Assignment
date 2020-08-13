@@ -7,6 +7,6 @@ Screenshots:-
 ![Screenshot](./ScreenShots/1.png?raw=true)
 
 
-![Screenshot](./ScreenShots/1.png?raw=true)
+![Screenshot](./ScreenShots/2.png?raw=true)
 
 
