@@ -1,6 +1,9 @@
 import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
+  container: {
+    marginBottom: 20,
+  },
   header: {
     paddingHorizontal: 30,
     paddingVertical: 20,
@@ -34,17 +37,6 @@ const styles = StyleSheet.create({
   headerText: {
     fontWeight: 'bold',
     fontSize: 16,
-  },
-  chatBubble: {
-    borderRadius: 25,
-    backgroundColor: 'blue',
-    alignItems: 'center',
-    justifyContent: 'center',
-    width: 50,
-    height: 50,
-    position:'absolute',
-    right:4,
-    top:5
   },
 });
 export default styles;
