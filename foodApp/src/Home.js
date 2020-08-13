@@ -8,7 +8,6 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import Header from './components/Header';
-import FeedCard from './components/FeedCard';
 import styles from './components/app-styles.js';
 import Collapsible from 'react-native-collapsible';
 import LinearGradient from 'react-native-linear-gradient';
